@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function multiplyNumbers() 
+        {
+            var num1 = parseFloat(prompt("Enter the first number:"));
+            var num2 = parseFloat(prompt("Enter the second number:"));
+            var result = num1 * num2;
+            alert("Result: " + result);
+            return result;
+        }
+
+        function biggestNumbers()
+        {
+            var num1 = parseFloat(prompt("Enter the first number:"));
+            var num2 = parseFloat(prompt("Enter the second number:"));
+            if (num1 > num2)
+                alert("Biggest number is: " + num1)
+            else
+                alert("Biggest number is: " + num2)
+        }
+
+        function CelToFah()
+        {
+            var cel = parseFloat(prompt("Enter a number:"));
+            result = (cel * 9/5) + 32
+            alert(result)
+        }
+
+        function greeting()
+        {
+            let name = prompt("Enter your name:")
+            alert("Greetings " + name)
+
+        }
+        
+        multiplyNumbers()
+        biggestNumbers()
+        CelToFah()
+        greeting()
+        
+        </script>
+
+</body>
+</html>
